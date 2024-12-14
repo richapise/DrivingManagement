@@ -5,7 +5,7 @@ FROM php:8.1-apache
 RUN a2enmod rewrite
 
 # Copy your project files into the container
-COPY . /var/www/html/
+COPY . C:\xampp\htdocs\mangement\Home.php
 
 # Expose port 80 for HTTP traffic
 EXPOSE 80
